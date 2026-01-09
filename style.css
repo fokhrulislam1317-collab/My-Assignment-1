@@ -169,9 +169,10 @@ main #hero-two-btn{
 
  #notes-Section{
     width: 100%;
-    background-color: rgb(235, 232, 232);
+    background-color: rgb(247, 242, 242);
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
 
  }
 
@@ -216,7 +217,6 @@ main #hero-two-btn{
         background-color: white;
         border-top-left-radius:5px ;
         border-top-right-radius: 5px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
     }
 
@@ -251,3 +251,82 @@ main #hero-two-btn{
      }
 
      /* Notes section end ...... */
+
+     /* Brain section start ....... */
+
+     #brain-section{
+        width: 100%;
+        
+     }
+     
+    #brain-section #wrapper{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    #brain-section #wrapper #brain-img{
+        width: 70rem;
+    }
+
+    #brain-section #wrapper #brain-img img{
+        width: 100%;
+    }
+
+    #brain-section #wrapper #brain-content #para-1{
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #30B868;
+        margin-bottom: 0.3rem;
+    }
+
+    #brain-section #wrapper #brain-content  #brain-content-heading{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+     #brain-section #wrapper #brain-content h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 2.9rem;
+
+     }
+     #brain-section #wrapper #brain-content #para-2{
+        color:  rgb(122, 121, 121);
+        font-size: 0.9rem;
+        text-align: left;
+        margin-bottom: 1.2rem;
+        width: 90%;
+     }
+    
+     #brain-section #wrapper #brain-content #advice-wrapper{
+        display: flex;
+        flex-direction: column;
+
+     }
+
+     #brain-section #wrapper #brain-content #advice-wrapper .advice-item{
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+     }
+
+     #brain-section #wrapper #brain-content #advice-wrapper .advice-item .check-icon{
+        width: 1rem;
+     }
+
+     #brain-section #wrapper #brain-content #advice-wrapper .advice-item .check-icon img{
+        width: 100%;
+     }
+
+     #brain-section #wrapper #brain-content #advice-wrapper .advice-item .advice{
+        font-size: 0.9rem;
+        text-transform: capitalize;
+        color: rgb(51, 51, 51);
+        font-weight: 500;
+     }
+
+     /* Brain section end ....... */
