@@ -75,7 +75,7 @@ main #hero-content{
 main #hero-content #Early-Access-btn-container{
     display: flex;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 
 }
 
@@ -114,7 +114,7 @@ main h1{
     font-weight: 600;
     color: white;
     text-transform: capitalize;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.7rem;
 }
 
 main h1 span{
@@ -130,7 +130,7 @@ main #hero-para p{
     font-weight: 200;
 }
 main #hero-para{
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
 }
 
 main #hero-two-btn{
@@ -156,9 +156,98 @@ main #hero-two-btn{
   main #hero-two-btn #built-vault{
     background-color: #30B868;
   }
+   main #hero-two-btn #built-vault:hover{
+    background-color: #0daa4f;
+   }
 
   main #hero-two-btn #how-works{
     border: 2px solid white;
     background-color: transparent;
   }
+
+  /* Notes sectioin start......  */
+
+ #notes-Section{
+    width: 100%;
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    justify-content: center;
+
+ }
+
+  #notes-Section #notes-container{
+    width: 90%;
+    margin-top: 2.2rem;
+    
+  }
  
+ #notes-Section #notes-container #notes-content{
+    text-align: center;
+    margin-bottom: 1.3rem;
+ }
+
+  #notes-Section #notes-container #notes-content h1{
+    font-size:2.9rem ;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+    #notes-Section #notes-container #notes-content p{
+        font-size: 0.9rem;
+        color: rgb(122, 121, 121);
+        word-spacing: 3px;
+
+    }
+
+    #notes-Section #notes-container #notes-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #notes-Section #notes-container #notes-items .note-box{
+        flex-basis: 23%;
+        padding: 0.8rem;
+        height: 13rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: white;
+        border-top-left-radius:5px ;
+        border-top-right-radius: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    }
+
+    #notes-Section #notes-container #notes-items .note-box .icon{
+        background-color:#F85454;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.8rem;
+    }
+
+    #notes-Section #notes-container #notes-items .note-box .icon img{
+        display: inline-block;
+       width: 1.4rem;
+    }
+
+    #notes-Section #notes-container #notes-items .note-box .content{
+        text-align: center;
+    }
+
+     #notes-Section #notes-container #notes-items .note-box .content h1{
+        font-size: 1.3rem;
+        margin-bottom: 0.7rem;
+        text-transform: capitalize;
+     }
+     #notes-Section #notes-container #notes-items .note-box .content p{
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+     }
+
+     /* Notes section end ...... */
