@@ -265,6 +265,7 @@ main #hero-two-btn{
         justify-content: space-between;
         align-items: center;
         gap: 3rem;
+        margin-bottom: 3rem;
     }
 
     #brain-section #wrapper #brain-img{
@@ -329,3 +330,47 @@ main #hero-two-btn{
      }
 
      /* Brain section end ....... */
+
+     #early-access-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #eceaea;
+        padding: 3.5rem;
+        border-radius: 5px;
+     }
+     #early-access-wrapper h1{
+        font-size: 2.3rem;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+     }
+
+     #early-access-wrapper .early-para-1{
+        text-align: center;
+        width: 60%;
+        font-size: 0.9rem;
+        color: rgb(119, 117, 117) ;
+        margin-bottom: 1.2rem;
+     }
+
+     #early-access-wrapper #early-access-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.7rem 1.4rem;
+        gap: 0.7rem;
+        border-radius: 0.5rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        color: white;
+        background-color: #30B868;
+        margin-bottom: 1rem;
+
+     }
+
+    
+      #early-access-wrapper #early-access-button:hover{
+        background-color: #0daa4f;
+      } 
